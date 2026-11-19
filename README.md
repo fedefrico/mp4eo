@@ -17,6 +17,7 @@ MP4EO is a Python research framework for combinatorial optimization in Earth obs
 For each target, the planner selects a satellite acquisition opportunity and a downlink opportunity. Binary decision variables indicate which opportunities are selected, a weighted mission cost scores the choices. Feasibility requires one acquisition and one downlink per target, consistent satellite assignments, acquisition before download, and adequate preparation time between operations. The full mission model also includes onboard-memory capacity.
 
 The mission-planning objective and the remaining operational constraints are encoded in a diagonal Hamiltonian, whose ground state represents an optimal feasible solution when the penalty weights are appropriately chosen.
+
 $$
 H = H_{\text{cost}} + \sum_{k = 3}^6 \lambda_k H_{\text{constraint}, k}
 $$
