@@ -76,6 +76,6 @@ Simpsi’s research contribution centers on the constraint-aware qudit encoding,
 
 The original framework implementation is attributed in the source to **Marco Tesoro**. TN components draw on **Quantum TEA**, developed by the **Quantum Padova group**; source acknowledgments also credit the **INFN Baltig Quantum Padova group**. The MSc research involved collaboration with **Thales Alenia Space Italia**.
 
-## Release candidate scope
+## Repository scope
 
 This is a source checkout for the existing NumPy/SciPy/pytest environment; run the documented command from this directory. No installation, packaging, or new environment is required. Solver backends, legacy code, historical dependency manifests, and industrial data are intentionally absent. The thesis’ Figure 4.1 is included with its original attribution. Original source attributions and the existing LICENSE are preserved; see [NOTICE](NOTICE) for provenance and remaining attribution questions.
