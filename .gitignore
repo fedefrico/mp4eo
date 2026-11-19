@@ -1,0 +1,26 @@
+# Confidential inputs and generated artifacts
+mp4eo_dataset/
+data/
+MP4EO_RESULTS/
+*.csv
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.mps
+*.log
+*.ipynb
+# Credentials and local environments
+.env
+.env.*
+*.pem
+*.key
+*.lic
+.venv/
+venv/
+# Caches and machine metadata
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+*Zone.Identifier

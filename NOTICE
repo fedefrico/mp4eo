@@ -1,0 +1,17 @@
+MP4EO public synthetic release candidate
+
+Original framework author: Marco Tesoro.
+Original source identifies the INFN Baltig Quantum Padova group repository and
+acknowledges Quantum TEA, developed by the Quantum Padova group.
+Research contribution: Federico Simpsi's MSc work on constraint-aware qudit
+encoding, implementation and validation, in collaboration with Thales Alenia
+Space Italia. Confidential industrial data and defaults are excluded.
+
+Original source headers and LICENSE are retained. LICENSE contains the notice
+"Copyright 2020 The QIBO team"; its historical provenance remains unresolved and
+this notice is not removed or replaced. This file does not assert ownership on
+behalf of any third party or extend permissions beyond existing license grants.
+
+Public-copy changes: explicit synthetic-range interface; industrial CSV adapter
+stubs; exclusion of solver backends pending upstream provenance review; core-only
+package exports; documentation adjusted to the files actually present.
